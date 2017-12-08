@@ -9,8 +9,10 @@ node 'vm.anthillplatform.org' {
 
   class { anthill::keys:
     application_keys_passphrase => "anthill",
-    application_keys_public => "keys/anthill.pub",
-    application_keys_private => "keys/anthill.pem",
+    private_key_passphrase => "anthill",
+
+    application_keys_public => "puppet:///modules/keys/anthill.pub",
+    application_keys_private => "puppet:///modules/keys/anthill.pem",
   }
 
   # core libraries/services
