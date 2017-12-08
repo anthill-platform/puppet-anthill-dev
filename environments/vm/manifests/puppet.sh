@@ -1,0 +1,1 @@
+/opt/puppetlabs/puppet/bin/puppet agent --test --certname=vm.anthillplatform.org --environment=vm
