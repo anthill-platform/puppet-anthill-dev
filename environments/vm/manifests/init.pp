@@ -8,11 +8,9 @@ node 'vm.anthillplatform.org' {
   }
 
   class { anthill::keys:
-    application_keys_passphrase => "anthill",
-    private_key_passphrase => "anthill",
-
-    application_keys_public => "puppet:///modules/keys/anthill.pub",
-    application_keys_private => "puppet:///modules/keys/anthill.pem",
+    authentication_public_key => "puppet:///modules/keys/anthill.pub",
+    authentication_private_key => "puppet:///modules/keys/anthill.pem",
+    authentication_private_key_passphrase => "anthill"
   }
 
   # core libraries/services
@@ -49,7 +47,7 @@ node 'vm.anthillplatform.org' {
   class { anthill_store: default_version => "0.2" }
 
   # Anthill Commonts library versions
-  anthill::common::version { "0.2": source_commit => "d897f4eff1a72a2878d5fea6d8d059b52a31643e" }
+  anthill::common::version { "0.2": source_commit => "87d139808837db6bd5ec6e888b4e75ea2ce2be03" }
 
   # Anthill Services versions assigned to appropriate commits
   anthill_admin::version { "0.2": source_commit => "ccb5b47432d9b040212d940823b2da0cef8c5a03" }
@@ -59,10 +57,10 @@ node 'vm.anthillplatform.org' {
   anthill_environment::version { "0.2": source_commit => "773401a968317469c85e4f8efdf3068ce4c9dde8" }
   anthill_event::version { "0.2": source_commit => "cf99af35d5835e44f884ba82180154e20bdcad9a" }
   anthill_exec::version { "0.2": source_commit => "5510b1fb9fb81f318c2030549674c7c3d26be585" }
-  anthill_game_master::version { "0.2": source_commit => "3329c0960469afa3004f1057a4dc448ec1f3ece6" }
-  anthill_game_controller::version { "0.2": source_commit => "1c9ae65780f168897ba8e9a8b6a50e62c396fdd8" }
+  anthill_game_master::version { "0.2": source_commit => "9acfe29d6bf9f59c2baa3d0438c4296a01f8dc89" }
+  anthill_game_controller::version { "0.2": source_commit => "f1fa1f166e2e4a19bf00dee72137e282f46f4af0" }
   anthill_leaderboard::version { "0.2": source_commit => "339dacba3d47179c2e26f1c5e0622ad95d2aa5fb" }
-  anthill_login::version { "0.2": source_commit => "70421f469a0ca2bc5bab515179932aa9dedd58d9" }
+  anthill_login::version { "0.2": source_commit => "1020132daf294ec306db8a46425e8cb5e04e34f0" }
   anthill_message::version { "0.2": source_commit => "0378351628d2ceffc9796b9a255a74181f1fb325" }
   anthill_profile::version { "0.2": source_commit => "c193846dd866f22efe0e6edaee17c5f1561cc838" }
   anthill_promo::version { "0.2": source_commit => "17dcb5493c09f06c9abfc602fc3344cbbe3e72e7" }
