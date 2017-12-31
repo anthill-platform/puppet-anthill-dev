@@ -4,7 +4,8 @@ node 'vm.anthillplatform.org' {
   include anthill::puppetdb
 
   class { anthill:
-    debug => true
+    debug => true,
+    services_enable_monitoring => true
   }
 
   class { anthill::keys:
@@ -46,8 +47,13 @@ node 'vm.anthillplatform.org' {
   class { anthill_static: default_version => "0.2" }
   class { anthill_store: default_version => "0.2" }
 
+  # monitoring
+  class { anthill::monitoring::grafana: }
+  class { anthill::monitoring::influxdb: }
+  class { anthill::monitoring::collectd: }
+
   # Anthill Commonts library versions
-  anthill::common::version { "0.2": source_commit => "87d139808837db6bd5ec6e888b4e75ea2ce2be03" }
+  anthill::common::version { "0.2": source_commit => "b6d126f06eb6beeb5b532b16a3a013ee911c6305" }
 
   # Anthill Services versions assigned to appropriate commits
   anthill_admin::version { "0.2": source_commit => "ccb5b47432d9b040212d940823b2da0cef8c5a03" }
