@@ -1,5 +1,4 @@
 classes:
-  - anthill::puppetdb
   - anthill
   - anthill::keys
   - anthill::nginx
@@ -8,7 +7,10 @@ classes:
   - anthill::rabbitmq
   - anthill::redis
   - anthill::dns
+
+  - anthill::index
   - anthill::common
+  - anthill::api
   
   - anthill_admin
   - anthill_config
@@ -34,63 +36,63 @@ classes:
   - anthill::monitoring::collectd
 
 resources:
-  anthill::common::version:
+  anthill::api::version:
     "0.2":
-      source_commit: 0dc5a4da46f8e80d03bc0659e85c8eddcc492e2d
-  anthill_admin::version:
-    "0.2":
-      source_commit: ccb5b47432d9b040212d940823b2da0cef8c5a03
-  anthill_config::version:
-    "0.2":
-      source_commit: def49544f7db7cf422e4b23f054f3ec713ac59c7
-  anthill_discovery::version:
-    "0.2":
-      source_commit: 630b7526d1619c76150cd2107edf8d7a2b16bacd
-  anthill_dlc::version:
-    "0.2":
-      source_commit: 95041ad4cfa037318704a01cefe640a52aa346e3
-  anthill_environment::version:
-    "0.2":
-      source_commit: 773401a968317469c85e4f8efdf3068ce4c9dde8
-  anthill_event::version:
-    "0.2":
-      source_commit: cf99af35d5835e44f884ba82180154e20bdcad9a
-  anthill_exec::version:
-    "0.2":
-      source_commit: 5510b1fb9fb81f318c2030549674c7c3d26be585
-  anthill_game_master::version:
-    "0.2":
-      source_commit: 9acfe29d6bf9f59c2baa3d0438c4296a01f8dc89
-  anthill_game_controller::version:
-    "0.2":
-      source_commit: f1fa1f166e2e4a19bf00dee72137e282f46f4af0
-  anthill_leaderboard::version:
-    "0.2":
-      source_commit: 339dacba3d47179c2e26f1c5e0622ad95d2aa5fb
+      common_package_version: ">=0.1dev"
   anthill_login::version:
     "0.2":
-      source_commit: 1020132daf294ec306db8a46425e8cb5e04e34f0
+      package_version: ">=0.1dev"
+  anthill_admin::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_config::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_discovery::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_dlc::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_environment::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_event::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_exec::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_game_master::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_game_controller::version:
+    "0.2":
+      package_version: ">=0.1dev"
+  anthill_leaderboard::version:
+    "0.2":
+      package_version: ">=0.1dev"
   anthill_message::version:
     "0.2":
-      source_commit: 0378351628d2ceffc9796b9a255a74181f1fb325
+      package_version: ">=0.1dev"
   anthill_profile::version:
     "0.2":
-      source_commit: c193846dd866f22efe0e6edaee17c5f1561cc838
+      package_version: ">=0.1dev"
   anthill_promo::version:
     "0.2":
-      source_commit: 17dcb5493c09f06c9abfc602fc3344cbbe3e72e7
+      package_version: ">=0.1dev"
   anthill_report::version:
     "0.2":
-      source_commit: 0cab78eaeefc7a8740c0f2f321724812a754cc1d
+      package_version: ">=0.1dev"
   anthill_social::version:
     "0.2":
-      source_commit: e1fc582396315bd764909990f009908de4fd7b46
+      package_version: ">=0.1dev"
   anthill_static::version:
     "0.2":
-      source_commit: 14a2de5f2c3f44d02b9733a4a845a0e86dcbd709
+      package_version: ">=0.1dev"
   anthill_store::version:
     "0.2":
-      source_commit: 9e6afd0fb8b4fd5e944765a8646177ce02561475
+      package_version: ">=0.1dev"
 
 anthill::debug: true
 anthill::services_enable_monitoring: true
