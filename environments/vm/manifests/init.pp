@@ -1,2 +1,2 @@
 
-class { anthill::hiera: }
+include hieraresources

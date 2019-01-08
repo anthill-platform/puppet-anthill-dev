@@ -1,3 +1,7 @@
+# hostname = vm9.anthillplatform.org
+# operatingsystem = Debian
+# operatingsystemmajrelease = 9
+# osfamily = "Debian"
 classes:
   - anthill
   - anthill::keys

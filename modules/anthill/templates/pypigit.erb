@@ -1,0 +1,13 @@
+[Unit]
+Description=A simple PyPi-like server that automatically generates python packages from git tags
+Documentation=https://github.com/anthill-utils/pypigit
+After=network.target
+
+[Service]
+Type=idle
+ExecStart=<%= @venv %>/bin/python -m pypigit.server <%= @pypi_args %>
+User=<%= @applications_user %>
+Group=<%= @applications_group %>
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+{
+  "name": "desertkun-anthill_static",
+  "version": "0.2.0",
+  "author": "desertkun",
+  "summary": "Simple static files hosting service (for players to upload)",
+  "license": "MIT",
+  "source": "https://github.com/anthill-platform/anthill-static",
+  "project_page": "https://anthillplatform.org",
+  "issues_url": "https://github.com/anthill-platform/anthill-static/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"desertkun-anthill","version_requirement":">= 0.2.0"}
+  ],
+  "data_provider": null
+}
+

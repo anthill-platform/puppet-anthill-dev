@@ -178,3 +178,6 @@
 [submodule "modules/python"]
 	path = modules/python
 	url = https://github.com/anthill-utils/puppet-python.git
+[submodule "modules/hieraresources"]
+	path = modules/hieraresources
+	url = https://github.com/desertkun/hieraresources.git

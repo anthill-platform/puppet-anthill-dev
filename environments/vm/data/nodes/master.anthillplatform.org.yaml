@@ -1,2 +1,6 @@
+# hostname = master.anthillplatform.org
+# operatingsystem = Debian
+# operatingsystemmajrelease = 9
+# osfamily = "Debian"
 classes:
   - anthill::puppetdb

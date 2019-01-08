@@ -1,0 +1,16 @@
+{
+  "name": "desertkun-anthill_login",
+  "version": "0.2.0",
+  "author": "desertkun",
+  "summary": "An authentication service for Anthill platform",
+  "license": "MIT",
+  "source": "https://github.com/anthill-platform/anthill-login",
+  "project_page": "https://anthillplatform.org",
+  "issues_url": "https://github.com/anthill-platform/anthill-login/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"desertkun-anthill","version_requirement":">= 0.2.0"}
+  ],
+  "data_provider": null
+}
+
