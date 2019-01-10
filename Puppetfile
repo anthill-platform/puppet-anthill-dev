@@ -1,53 +1,77 @@
 forge "https://forgeapi.puppetlabs.com"
-    
-mod 'puppetlabs-stdlib'
-mod 'puppetlabs-apt'
-mod 'puppetlabs-concat'
-mod 'puppet-rabbitmq'
-mod 'puppetlabs-vcsrepo'
-mod 'puppetlabs-git'
-mod 'puppetlabs-translate'
-mod 'puppetlabs-postgresql'
-mod 'puppetlabs-firewall'
-mod 'puppetlabs-inifile'
 
-mod 'herculesteam-augeasproviders_core',
-    :git => 'https://github.com/hercules-team/augeasproviders_core.git'
-mod 'herculesteam-augeasproviders_sysctl',
-    :git => 'https://github.com/hercules-team/augeasproviders_sysctl.git'
-mod 'arioch-redis',
-    :git => 'https://github.com/anthill-utils/puppet-redis.git'
-mod 'desertkun-supervisor',
-    :git => 'https://github.com/anthill-utils/puppet-supervisor.git'
-mod 'puppet-nginx',
-    :git => 'https://github.com/anthill-utils/puppet-nginx.git'
-mod 'puppet-archive',
-    :git => 'https://github.com/voxpupuli/puppet-archive.git'
-mod 'puppet-staging',
-    :git => 'https://github.com/voxpupuli/puppet-staging.git'
-mod 'puppetlabs-puppetdb',
-    :git => 'https://github.com/anthill-utils/puppetlabs-puppetdb.git'
-mod 'acme-ohmyzsh',
-    :git => 'https://github.com/acme/puppet-acme-oh-my-zsh.git'
-mod 'inkblot-ipcalc',
-    :git => 'https://github.com/anthill-utils/puppet-ipcalc.git'
-mod 'wcooley-name_service_lookups',
-    :git => 'https://github.com/wcooley/puppet-name_service_lookups.git'
-mod 'puppet-openvpn',
-    :git => 'https://github.com/anthill-utils/puppet-openvpn.git'
-mod 'puppet-ulimit',
-    :git => 'https://github.com/arioch/puppet-ulimit.git'
-mod 'puppet-grafana',
-    :git => 'https://github.com/voxpupuli/puppet-grafana.git'
-mod 'puppetlabs-mysql',
-    :git => 'https://github.com/anthill-utils/puppetlabs-mysql.git'
-mod 'puppet-collectd',
-    :git => 'https://github.com/voxpupuli/puppet-collectd.git'
-mod 'golja-influxdb',
-    :git => 'https://github.com/anthill-utils/golja-influxdb.git'
-mod 'puppet-puppetdbquery',
-    :git => 'https://github.com/dalen/puppet-puppetdbquery.git'
-mod 'puppet-python',
-    :git => 'https://github.com/anthill-utils/puppet-python.git'
-mod 'desertkun-hieraresources',
-    :git => 'https://github.com/desertkun/hieraresources.git'
+mod 'anthillplatform-anthill',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill"
+
+mod 'anthillplatform-anthill_admin',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_admin"
+
+mod 'anthillplatform-anthill_config',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_config"
+
+mod 'anthillplatform-anthill_discovery',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_discovery"
+
+mod 'anthillplatform-anthill_dlc',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_dlc"
+
+mod 'anthillplatform-anthill_environment',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_environment"
+
+mod 'anthillplatform-anthill_event',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_event"
+
+mod 'anthillplatform-anthill_exec',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_exec"
+
+mod 'anthillplatform-anthill_game_controller',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_game_controller"
+
+mod 'anthillplatform-anthill_game_master',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_game_master"
+
+mod 'anthillplatform-anthill_leaderboard',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_leaderboard"
+
+mod 'anthillplatform-anthill_login',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_login"
+
+mod 'anthillplatform-anthill_message',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_message"
+
+mod 'anthillplatform-anthill_profile',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_profile"
+
+mod 'anthillplatform-anthill_promo',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_promo"
+
+mod 'anthillplatform-anthill_report',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_report"
+
+mod 'anthillplatform-anthill_social',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_social"
+
+mod 'anthillplatform-anthill_static',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_static"
+
+mod 'anthillplatform-anthill_store',
+    :git => 'https://github.com/anthill-platform/puppet-anthill.git',
+    :path => "anthill_store"

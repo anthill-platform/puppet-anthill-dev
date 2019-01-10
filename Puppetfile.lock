@@ -37,6 +37,206 @@ GIT
     acme-ohmyzsh (0.0.1)
 
 GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill (0.2.0)
+      acme-ohmyzsh (>= 0)
+      arioch-redis (>= 0)
+      desertkun-hieraresources (>= 0)
+      desertkun-supervisor (>= 0)
+      golja-influxdb (>= 0)
+      herculesteam-augeasproviders_core (>= 0)
+      herculesteam-augeasproviders_sysctl (>= 0)
+      inkblot-ipcalc (>= 0)
+      puppet-archive (>= 0)
+      puppet-collectd (>= 0)
+      puppet-grafana (>= 0)
+      puppet-nginx (>= 0)
+      puppet-openvpn (>= 0)
+      puppet-puppetdbquery (>= 0)
+      puppet-python (>= 0)
+      puppet-rabbitmq (>= 0)
+      puppet-staging (>= 0)
+      puppet-ulimit (>= 0)
+      puppetlabs-apt (>= 0)
+      puppetlabs-concat (>= 0)
+      puppetlabs-firewall (>= 0)
+      puppetlabs-git (>= 0)
+      puppetlabs-inifile (>= 0)
+      puppetlabs-mysql (>= 0)
+      puppetlabs-postgresql (>= 0)
+      puppetlabs-puppetdb (>= 0)
+      puppetlabs-stdlib (>= 0)
+      puppetlabs-translate (>= 0)
+      puppetlabs-vcsrepo (>= 0)
+      wcooley-name_service_lookups (>= 0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_admin
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_admin (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_config
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_config (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_discovery
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_discovery (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_dlc
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_dlc (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_environment
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_environment (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_event
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_event (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_exec
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_exec (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_game_controller
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_game_controller (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_game_master
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_game_master (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_leaderboard
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_leaderboard (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_login
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_login (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_message
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_message (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_profile
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_profile (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_promo
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_promo (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_report
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_report (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_social
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_social (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_static
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_static (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
+  remote: https://github.com/anthill-platform/puppet-anthill.git
+  path: anthill_store
+  ref: master
+  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  specs:
+    anthillplatform-anthill_store (0.2.0)
+      anthillplatform-anthill (>= 0.2.0)
+
+GIT
   remote: https://github.com/anthill-utils/golja-influxdb.git
   ref: master
   sha: 743a259704def054f26db4d60b8bf495edc945f2
@@ -200,34 +400,23 @@ GIT
     wcooley-name_service_lookups (0.1.0)
 
 DEPENDENCIES
-  acme-ohmyzsh (>= 0)
-  arioch-redis (>= 0)
-  desertkun-hieraresources (>= 0)
-  desertkun-supervisor (>= 0)
-  golja-influxdb (>= 0)
-  herculesteam-augeasproviders_core (>= 0)
-  herculesteam-augeasproviders_sysctl (>= 0)
-  inkblot-ipcalc (>= 0)
-  puppet-archive (>= 0)
-  puppet-collectd (>= 0)
-  puppet-grafana (>= 0)
-  puppet-nginx (>= 0)
-  puppet-openvpn (>= 0)
-  puppet-puppetdbquery (>= 0)
-  puppet-python (>= 0)
-  puppet-rabbitmq (>= 0)
-  puppet-staging (>= 0)
-  puppet-ulimit (>= 0)
-  puppetlabs-apt (>= 0)
-  puppetlabs-concat (>= 0)
-  puppetlabs-firewall (>= 0)
-  puppetlabs-git (>= 0)
-  puppetlabs-inifile (>= 0)
-  puppetlabs-mysql (>= 0)
-  puppetlabs-postgresql (>= 0)
-  puppetlabs-puppetdb (>= 0)
-  puppetlabs-stdlib (>= 0)
-  puppetlabs-translate (>= 0)
-  puppetlabs-vcsrepo (>= 0)
-  wcooley-name_service_lookups (>= 0)
+  anthillplatform-anthill (>= 0)
+  anthillplatform-anthill_admin (>= 0)
+  anthillplatform-anthill_config (>= 0)
+  anthillplatform-anthill_discovery (>= 0)
+  anthillplatform-anthill_dlc (>= 0)
+  anthillplatform-anthill_environment (>= 0)
+  anthillplatform-anthill_event (>= 0)
+  anthillplatform-anthill_exec (>= 0)
+  anthillplatform-anthill_game_controller (>= 0)
+  anthillplatform-anthill_game_master (>= 0)
+  anthillplatform-anthill_leaderboard (>= 0)
+  anthillplatform-anthill_login (>= 0)
+  anthillplatform-anthill_message (>= 0)
+  anthillplatform-anthill_profile (>= 0)
+  anthillplatform-anthill_promo (>= 0)
+  anthillplatform-anthill_report (>= 0)
+  anthillplatform-anthill_social (>= 0)
+  anthillplatform-anthill_static (>= 0)
+  anthillplatform-anthill_store (>= 0)
 
