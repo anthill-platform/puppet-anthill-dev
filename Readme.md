@@ -3,6 +3,14 @@
 This repository contains a simple "proof-of-concept" environment that is required to
 test necessary <a href="https://github.com/anthill-platform/puppet-anthill">Puppet Modules for Anthill Platform</a>.
 
+## How To Setup
+
+You need [Librarian Puppet](https://librarian-puppet.com/) to setup this repository. Install Ruby on your machine, install `gem install librarian-puppet` and just do `librarian-puppet install` in the repository folder. 
+
+Alternatively, you can install [Hiera Editor](https://github.com/desertkun/hiera-editor) and then simply open the repositorin in it, the editor will setup everything automatically.
+
+## Project Structure
+
 It consists of a two main parts:
 
 ### The `environments/` folder
@@ -37,9 +45,3 @@ Please see <a href="https://github.com/anthill-platform/anthill/blob/master/doc/
 
 This folder contains all modules Puppet needs, including modules for Anthill Platform itself, and some external modules
 from open-source developers.
-
-## Environments
-
-### `vm`
-
-This environment is used to test Anthill Platform on a virtual machine with Debian 8.9 installed.
