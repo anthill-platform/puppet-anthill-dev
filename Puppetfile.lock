@@ -1,0 +1,233 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    camptocamp-systemd (2.1.0)
+      puppetlabs-stdlib (< 6.0.0, >= 4.13.1)
+    puppet-rabbitmq (8.4.1)
+      camptocamp-systemd (< 3.0.0, >= 2.1.0)
+      puppet-archive (< 4.0.0, >= 2.0.0)
+      puppetlabs-stdlib (< 6.0.0, >= 4.13.1)
+    puppetlabs-apt (6.2.1)
+      puppetlabs-stdlib (< 6.0.0, >= 4.16.0)
+      puppetlabs-translate (< 2.0.0, >= 1.0.0)
+    puppetlabs-concat (5.2.0)
+      puppetlabs-stdlib (< 6.0.0, >= 4.13.1)
+      puppetlabs-translate (< 2.0.0, >= 1.0.0)
+    puppetlabs-firewall (1.14.0)
+      puppetlabs-stdlib (< 6.0.0, >= 4.0.0)
+    puppetlabs-git (0.5.0)
+      puppetlabs-stdlib (>= 3.2.0)
+    puppetlabs-inifile (2.5.0)
+      puppetlabs-translate (< 2.0.0, >= 1.0.0)
+    puppetlabs-postgresql (5.11.0)
+      puppetlabs-apt (< 7.0.0, >= 2.0.0)
+      puppetlabs-concat (< 6.0.0, >= 1.1.0)
+      puppetlabs-stdlib (< 6.0.0, >= 4.13.1)
+    puppetlabs-stdlib (5.1.0)
+    puppetlabs-translate (1.2.0)
+    puppetlabs-vcsrepo (2.4.0)
+    stahnma-epel (1.3.1)
+      puppetlabs-stdlib (>= 3.0.0)
+
+GIT
+  remote: https://github.com/acme/puppet-acme-oh-my-zsh.git
+  ref: master
+  sha: f61cc46823f0aa2cd012668a6182e83f4557418d
+  specs:
+    acme-ohmyzsh (0.0.1)
+
+GIT
+  remote: https://github.com/anthill-utils/golja-influxdb.git
+  ref: master
+  sha: 743a259704def054f26db4d60b8bf495edc945f2
+  specs:
+    golja-influxdb (5.0.0)
+      puppetlabs-apt (>= 1.8.0)
+      puppetlabs-stdlib (>= 1.0.0)
+
+GIT
+  remote: https://github.com/anthill-utils/puppet-ipcalc.git
+  ref: master
+  sha: 3463b69c8d94b01d58c0876f090ac87348a32003
+  specs:
+    inkblot-ipcalc (2.2.0)
+
+GIT
+  remote: https://github.com/anthill-utils/puppet-nginx.git
+  ref: master
+  sha: 65f7527eaeaeda693939aa1948969a6dc0071c17
+  specs:
+    puppet-nginx (0.9.1-rc0)
+      puppetlabs-concat (>= 3.0.0)
+      puppetlabs-stdlib (>= 4.13.1)
+
+GIT
+  remote: https://github.com/anthill-utils/puppet-openvpn.git
+  ref: master
+  sha: 643690d9e571f8db9b5846fd1312f4ec0311cfec
+  specs:
+    puppet-openvpn (6.0.1-rc0)
+      puppetlabs-concat (>= 3.0.0)
+      puppetlabs-stdlib (>= 4.13.1)
+
+GIT
+  remote: https://github.com/anthill-utils/puppet-python.git
+  ref: master
+  sha: 9ea6afbf7ff206c2c495c2cda5fc0676e3296258
+  specs:
+    puppet-python (1.18.2)
+      puppetlabs-stdlib (< 6.0.0, >= 4.6.0)
+      stahnma-epel (< 2.0.0, >= 1.2.2)
+
+GIT
+  remote: https://github.com/anthill-utils/puppet-redis.git
+  ref: master
+  sha: 806383c6f3f23d9885e7bf1baf84971357bb8695
+  specs:
+    arioch-redis (3.3.0)
+      herculesteam-augeasproviders_core (< 3.0.0, >= 2.1.0)
+      herculesteam-augeasproviders_sysctl (< 3.0.0, >= 2.1.0)
+      puppetlabs-apt (>= 2.3.0)
+      puppetlabs-stdlib (>= 1.0.2)
+      stahnma-epel (< 2.0.0, >= 1.2.2)
+
+GIT
+  remote: https://github.com/anthill-utils/puppet-supervisor.git
+  ref: master
+  sha: b92bb3895737ce8371b47cd13c362daaba829227
+  specs:
+    desertkun-supervisor (2.0.0)
+
+GIT
+  remote: https://github.com/anthill-utils/puppetlabs-mysql.git
+  ref: master
+  sha: 476a14f0b5e69cd30fe920911c02974bdc0bbb67
+  specs:
+    puppetlabs-mysql (5.1.0)
+      puppet-staging (>= 1.0.1)
+      puppetlabs-stdlib (>= 3.2.0)
+      puppetlabs-translate (< 2.0.0, >= 1.0.0)
+
+GIT
+  remote: https://github.com/anthill-utils/puppetlabs-puppetdb.git
+  ref: master
+  sha: b106831e5df2d5e5fef766a8a96571cd613f2ee5
+  specs:
+    puppetlabs-puppetdb (6.0.2)
+      puppetlabs-firewall (< 2.0.0, >= 1.1.3)
+      puppetlabs-inifile (< 3.0.0, >= 1.1.3)
+      puppetlabs-postgresql (< 6.0.0, >= 4.0.0)
+      puppetlabs-stdlib (>= 4.13.1)
+
+GIT
+  remote: https://github.com/arioch/puppet-ulimit.git
+  ref: master
+  sha: 4f02600f80c6271b08e2d812a8eb22cb52da62b4
+  specs:
+    puppet-ulimit (0.0.2)
+
+GIT
+  remote: https://github.com/dalen/puppet-puppetdbquery.git
+  ref: master
+  sha: 438c089759680b6bb2ec070699aab2141775d2be
+  specs:
+    puppet-puppetdbquery (3.0.1)
+
+GIT
+  remote: https://github.com/desertkun/hieraresources.git
+  ref: master
+  sha: 2975462c31e0c0dc3c3fe6d733039c8987daa644
+  specs:
+    desertkun-hieraresources (0.1.0)
+      puppetlabs-stdlib (>= 1.0.0)
+
+GIT
+  remote: https://github.com/hercules-team/augeasproviders_core.git
+  ref: master
+  sha: f1defb069883311ec2febd3248457d529a03ec2e
+  specs:
+    herculesteam-augeasproviders_core (2.2.0)
+      puppetlabs-stdlib (< 6.0.0, >= 3.2.0)
+
+GIT
+  remote: https://github.com/hercules-team/augeasproviders_sysctl.git
+  ref: master
+  sha: 18fb1e232ffb9e1ab7a34cd00513da1c33fd7af2
+  specs:
+    herculesteam-augeasproviders_sysctl (2.2.1)
+      herculesteam-augeasproviders_core (< 3.0.0, >= 2.1.0)
+
+GIT
+  remote: https://github.com/voxpupuli/puppet-archive.git
+  ref: master
+  sha: df97d528ddfeed9426d2d48db22b0db401543006
+  specs:
+    puppet-archive (3.2.2-rc0)
+      puppetlabs-stdlib (< 6.0.0, >= 4.13.1)
+
+GIT
+  remote: https://github.com/voxpupuli/puppet-collectd.git
+  ref: master
+  sha: 6eadfcd70077792b0096de2262ed556a2183123a
+  specs:
+    puppet-collectd (10.1.1-rc0)
+      puppetlabs-apt (< 7.0.0, >= 2.2.0)
+      puppetlabs-concat (< 6.0.0, >= 1.2.5)
+      puppetlabs-stdlib (< 6.0.0, >= 4.25.0)
+      stahnma-epel (< 2.0.0, >= 1.2.2)
+
+GIT
+  remote: https://github.com/voxpupuli/puppet-grafana.git
+  ref: master
+  sha: 92965e156d452db2ff9ccf38b62d14a94277aca3
+  specs:
+    puppet-grafana (5.0.1-rc0)
+      puppet-archive (< 4.0.0, >= 1.0.1)
+      puppetlabs-stdlib (< 6.0.0, >= 4.20.0)
+
+GIT
+  remote: https://github.com/voxpupuli/puppet-staging.git
+  ref: master
+  sha: 1c76482fde036f101f184226b6754716887e6ca6
+  specs:
+    puppet-staging (3.2.1-rc0)
+
+GIT
+  remote: https://github.com/wcooley/puppet-name_service_lookups.git
+  ref: master
+  sha: c365fde86ba4365e6fc4a16282df7488e65014fe
+  specs:
+    wcooley-name_service_lookups (0.1.0)
+
+DEPENDENCIES
+  acme-ohmyzsh (>= 0)
+  arioch-redis (>= 0)
+  desertkun-hieraresources (>= 0)
+  desertkun-supervisor (>= 0)
+  golja-influxdb (>= 0)
+  herculesteam-augeasproviders_core (>= 0)
+  herculesteam-augeasproviders_sysctl (>= 0)
+  inkblot-ipcalc (>= 0)
+  puppet-archive (>= 0)
+  puppet-collectd (>= 0)
+  puppet-grafana (>= 0)
+  puppet-nginx (>= 0)
+  puppet-openvpn (>= 0)
+  puppet-puppetdbquery (>= 0)
+  puppet-python (>= 0)
+  puppet-rabbitmq (>= 0)
+  puppet-staging (>= 0)
+  puppet-ulimit (>= 0)
+  puppetlabs-apt (>= 0)
+  puppetlabs-concat (>= 0)
+  puppetlabs-firewall (>= 0)
+  puppetlabs-git (>= 0)
+  puppetlabs-inifile (>= 0)
+  puppetlabs-mysql (>= 0)
+  puppetlabs-postgresql (>= 0)
+  puppetlabs-puppetdb (>= 0)
+  puppetlabs-stdlib (>= 0)
+  puppetlabs-translate (>= 0)
+  puppetlabs-vcsrepo (>= 0)
+  wcooley-name_service_lookups (>= 0)
+

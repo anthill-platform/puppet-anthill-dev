@@ -1,2 +1,4 @@
 .pe-cache
 .yardoc
+.tmp/
+modules/

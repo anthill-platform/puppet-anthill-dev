@@ -1,91 +1,53 @@
 forge "https://forgeapi.puppetlabs.com"
+    
+mod 'puppetlabs-stdlib'
+mod 'puppetlabs-apt'
+mod 'puppetlabs-concat'
+mod 'puppet-rabbitmq'
+mod 'puppetlabs-vcsrepo'
+mod 'puppetlabs-git'
+mod 'puppetlabs-translate'
+mod 'puppetlabs-postgresql'
+mod 'puppetlabs-firewall'
+mod 'puppetlabs-inifile'
 
-mod 'apt',
-    :git => 'https://github.com/puppetlabs/puppetlabs-apt.git'
-
-mod 'concat',
-    :git => 'https://github.com/puppetlabs/puppetlabs-concat.git'
-    
-mod 'rabbitmq',
-    :git => 'https://github.com/puppetlabs/puppetlabs-rabbitmq.git'
-    
-mod 'redis',
-    :git => 'https://github.com/anthill-utils/puppet-redis.git'
-    
-mod 'stdlib',
-    :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
-    
-mod 'supervisor',
-    :git => 'https://github.com/anthill-utils/puppet-supervisor.git'
-    
-mod 'vcsrepo',
-    :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo.git'
-    
-mod 'git',
-    :git => 'https://github.com/puppetlabs/puppetlabs-git.git'
-    
-mod 'augeasproviders_core',
+mod 'herculesteam-augeasproviders_core',
     :git => 'https://github.com/hercules-team/augeasproviders_core.git'
-    
-mod 'augeasproviders_sysctl',
+mod 'herculesteam-augeasproviders_sysctl',
     :git => 'https://github.com/hercules-team/augeasproviders_sysctl.git'
-    
-mod 'nginx',
+mod 'arioch-redis',
+    :git => 'https://github.com/anthill-utils/puppet-redis.git'
+mod 'desertkun-supervisor',
+    :git => 'https://github.com/anthill-utils/puppet-supervisor.git'
+mod 'puppet-nginx',
     :git => 'https://github.com/anthill-utils/puppet-nginx.git'
-    
-mod 'archive',
+mod 'puppet-archive',
     :git => 'https://github.com/voxpupuli/puppet-archive.git'
-    
-mod 'translate',
-    :git => 'https://github.com/puppetlabs/puppetlabs-translate.git'
-    
-mod 'staging',
+mod 'puppet-staging',
     :git => 'https://github.com/voxpupuli/puppet-staging.git'
-    
-mod 'puppetdb',
+mod 'puppetlabs-puppetdb',
     :git => 'https://github.com/anthill-utils/puppetlabs-puppetdb.git'
-    
-mod 'inifile',
-    :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git'
-    
-mod 'postgresql',
-    :git => 'https://github.com/puppetlabs/puppetlabs-postgresql.git'
-    
-mod 'firewall',
-    :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git'
-    
-mod 'ohmyzsh',
+mod 'acme-ohmyzsh',
     :git => 'https://github.com/acme/puppet-acme-oh-my-zsh.git'
-    
-mod 'ipcalc',
-    :git => 'https://github.com/inkblot/puppet-ipcalc.git'
-    
-mod 'name_service_lookups',
+mod 'inkblot-ipcalc',
+    :git => 'https://github.com/anthill-utils/puppet-ipcalc.git'
+mod 'wcooley-name_service_lookups',
     :git => 'https://github.com/wcooley/puppet-name_service_lookups.git'
-    
-mod 'openvpn',
+mod 'puppet-openvpn',
     :git => 'https://github.com/anthill-utils/puppet-openvpn.git'
-    
-mod 'ulimit',
+mod 'puppet-ulimit',
     :git => 'https://github.com/arioch/puppet-ulimit.git'
-    
-mod 'grafana',
+mod 'puppet-grafana',
     :git => 'https://github.com/voxpupuli/puppet-grafana.git'
-    
-mod 'mysql',
+mod 'puppetlabs-mysql',
     :git => 'https://github.com/anthill-utils/puppetlabs-mysql.git'
-    
-mod 'collectd',
+mod 'puppet-collectd',
     :git => 'https://github.com/voxpupuli/puppet-collectd.git'
-    
-mod 'influxdb',
+mod 'golja-influxdb',
     :git => 'https://github.com/anthill-utils/golja-influxdb.git'
-    
-mod 'puppetdbquery',
+mod 'puppet-puppetdbquery',
     :git => 'https://github.com/dalen/puppet-puppetdbquery.git'
-    
-mod 'python',
+mod 'puppet-python',
     :git => 'https://github.com/anthill-utils/puppet-python.git'
-    
-mod 'hieraresources',
+mod 'desertkun-hieraresources',
     :git => 'https://github.com/desertkun/hieraresources.git'
