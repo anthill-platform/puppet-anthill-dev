@@ -1,7 +1,3 @@
-# hostname = vm9.anthillplatform.org
-# operatingsystem = Debian
-# operatingsystemmajrelease = 9
-# osfamily = "Debian"
 classes:
   - anthill
   - anthill::keys
@@ -11,11 +7,9 @@ classes:
   - anthill::rabbitmq
   - anthill::redis
   - anthill::dns
-
   - anthill::index
   - anthill::common
   - anthill::api
-
   - anthill_admin
   - anthill_config
   - anthill_discovery
@@ -34,7 +28,6 @@ classes:
   - anthill_social
   - anthill_static
   - anthill_store
-
   - anthill::monitoring::grafana
   - anthill::monitoring::influxdb
   - anthill::monitoring::collectd
@@ -97,11 +90,3 @@ resources:
   anthill_store::version:
     "0.2":
       package_version: ">=0.1dev"
-
-anthill::debug: true
-anthill::services_enable_monitoring: true
-anthill::default_version: "0.2"
-
-anthill::keys::authentication_public_key: puppet:///modules/keys/anthill.pub
-anthill::keys::authentication_private_key: puppet:///modules/keys/anthill.pem
-anthill::keys::authentication_private_key_passphrase: anthill

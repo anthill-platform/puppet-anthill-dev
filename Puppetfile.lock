@@ -38,9 +38,9 @@ GIT
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill
+  path: modules/anthill
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill (0.2.0)
       acme-ohmyzsh (>= 0)
@@ -76,162 +76,162 @@ GIT
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_admin
+  path: modules/anthill_admin
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_admin (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_config
+  path: modules/anthill_config
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_config (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_discovery
+  path: modules/anthill_discovery
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_discovery (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_dlc
+  path: modules/anthill_dlc
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_dlc (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_environment
+  path: modules/anthill_environment
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_environment (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_event
+  path: modules/anthill_event
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_event (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_exec
+  path: modules/anthill_exec
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_exec (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_game_controller
+  path: modules/anthill_game_controller
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_game_controller (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_game_master
+  path: modules/anthill_game_master
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_game_master (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_leaderboard
+  path: modules/anthill_leaderboard
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_leaderboard (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_login
+  path: modules/anthill_login
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_login (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_message
+  path: modules/anthill_message
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_message (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_profile
+  path: modules/anthill_profile
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_profile (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_promo
+  path: modules/anthill_promo
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_promo (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_report
+  path: modules/anthill_report
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_report (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_social
+  path: modules/anthill_social
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_social (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_static
+  path: modules/anthill_static
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_static (0.2.0)
       anthillplatform-anthill (>= 0.2.0)
 
 GIT
   remote: https://github.com/anthill-platform/puppet-anthill.git
-  path: anthill_store
+  path: modules/anthill_store
   ref: master
-  sha: 038c519def9508700da2ec5d7bbf95e26b5d2f41
+  sha: ef3b58e25b256f63568edd923eceb01f180af52e
   specs:
     anthillplatform-anthill_store (0.2.0)
       anthillplatform-anthill (>= 0.2.0)

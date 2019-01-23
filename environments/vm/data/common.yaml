@@ -1,4 +1,6 @@
-classes:
-  []
-resources:
-  {}
+anthill::debug: true
+anthill::services_enable_monitoring: true
+anthill::default_version: "0.2"
+anthill::keys::authentication_public_key: puppet:///modules/keys/anthill.pub
+anthill::keys::authentication_private_key: puppet:///modules/keys/anthill.pem
+anthill::keys::authentication_private_key_passphrase: anthill
